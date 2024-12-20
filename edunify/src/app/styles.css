@@ -1,0 +1,26 @@
+/* Add the following to a CSS file like styles.css and import it in your components */
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+form div {
+    margin-bottom: 10px;
+}
+
+.schools-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 20px;
+}
+
+.school-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+}
+
+.school-card img {
+    max-width: 100%;
+    height: auto;
+}
